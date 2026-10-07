@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header class="en-tete">
+    <div class="conteneur en-tete-contenu">
+      <a href="#accueil" class="logo">Élan Fitness</a>
+
+      <nav aria-label="Navigation principale">
+        <ul class="menu">
+          <li><a href="index.html" >accueil</a></li>
+          <li><a href="index2.html">À propos</a></li>
+          <li><a href="index3.html">Programmes</a></li>
+          <li><a href="contact.html"class="lien-actif">Contact Nous</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+<center>
+    <div class = "contact-form-container">
+        <h2>Contact Nous</h2>
+        <form class ="contactForm">
+            <div class ="form-group">
+                <label for = "name" id="name">Name</label>
+                <input type="text" id="name"
+                        name="name"
+                        placeholder="Votre nom"required>
+                <span class ="error-message" id="nameError"></span>
+
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email"
+                        email="email"
+                        placeholder="Votre Email"required>
+                 <span class="error-message" id="emailError"></span>
+                    
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone"
+                        phone="phone"
+                        placeholder="Votre telephone"required>
+                <span class="error-message" id="phoneError"></span>
+
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message"
+                          name="message"
+                          placeholder="Votre message"
+                          rows="5"required></textarea>
+                <span class="error-message" id="messageError"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit"
+                        class="submit-button">
+                        Envoyer Message
+                    </button>
+            </div>
+        </form>
+        
+    </div>
+</center>
+
+    
+<footer class="pied-de-page">
+    <div class="conteneur">
+
+      <div class="pied-haut">
+        <div>
+          <p class="logo logo-clair">Élan Fitness</p>
+          <p class="slogan">Ton énergie, ton rythme.</p>
+        </div>
+
+        <nav aria-label="Navigation du pied de page">
+          <ul class="menu menu-pied">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index2.html">À propos</a></li>
+            <li><a href="index3.html">Programmes</a></li>
+            <li><a href="contact.html">Contact Nous</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="pied-bas">
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+        <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+      </div>
+
+    </div>
+  </footer>
+  </main>
+</body>
+</html>
+
