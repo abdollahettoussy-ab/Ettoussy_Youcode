@@ -7,7 +7,7 @@ dossier index.html
 * index.html = accueil
 * index2.html = À propos
 * index3.html = Programmes
-* contact.html = contact
+* contact.html = Contact Nous
 ## Dévlloppment
 * Accueil : Présentation de la salle et des programmes.
 * Programmes : Affichage détaillé des cours et des formules.
