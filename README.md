@@ -4,10 +4,10 @@
 ## Ou commence le fichier ?
 dossier index.html
 ## chaque dossier signifie :
-index.html = accueil
-index2.html = À propos
-index3.html = Programmes
-contact.html = contact
+* index.html = accueil
+* index2.html = À propos
+* index3.html = Programmes
+* contact.html = contact
 ## Dévlloppment
 Accueil : Présentation de la salle et des programmes.
 Programmes : Affichage détaillé des cours et des formules.
