@@ -9,9 +9,9 @@ dossier index.html
 * index3.html = Programmes
 * contact.html = contact
 ## Dévlloppment
-Accueil : Présentation de la salle et des programmes.
-Programmes : Affichage détaillé des cours et des formules.
-À propos : Histoire, valeurs et présentation de l'équipe.
-contact : Formulaire de message, coordonnées et plan d'accè
+* Accueil : Présentation de la salle et des programmes.
+* Programmes : Affichage détaillé des cours et des formules.
+* À propos : Histoire, valeurs et présentation de l'équipe.
+* contact : Formulaire de message, coordonnées et plan d'accè
 ## réalisé par
 Abdellah Ettoussy
